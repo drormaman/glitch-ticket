@@ -1,0 +1,95 @@
+body{
+}
+#mainHeader{
+    height: 100px;
+    background-color: #0077c2;
+    text-align: center;
+}
+header h1{
+    line-height: 100px;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+#searchDiv{
+    background-color: #42a5f5;
+}
+
+main{
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-auto-rows: 300px;
+    grid-gap: 20px;
+}
+
+.ticket{
+    background-color: #fff;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.4);
+}
+
+.ticket:hover{
+    border: 2px solid #0077c2;
+    padding: 13px;
+
+}
+
+.ticket header{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.ticket h5{
+    margin:0 0 4px 0;
+}
+
+.userEmail{
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+/* .buttonsDiv{
+    margin-left: auto;
+} */
+.ticketDate{
+    font-size: 14px;
+}
+.ticketContent{
+    
+}
+.expandContent{
+    cursor: pointer;
+    color: #0077c2;
+    font-weight: 500;
+}
+.expandContent:hover{
+    color: #42a5f5;
+    
+}
+
+.ticket footer{
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label{
+    border-radius: 5px;
+    color: #fff;
+    background-color: #f59f5a;
+    margin-left: 8px;
+    font-size: 14px;
+    padding: 2px 5px;
+}
+
+footer{
+
+}
